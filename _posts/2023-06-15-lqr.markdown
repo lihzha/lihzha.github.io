@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Fine-tuning LQR with Reinforcement Learning"
+date:   2023-06-15 21:21:53 +0000
+image: /images/lqr.png
+code: ''
+video: ''
+categories: project
+author: "Lihan Zha"
+course: Modern Control Theory
+paper: pdfs/lqr.pdf
+---
+Optimizating the cost matrices in LQR with explicitly defined reward functions through policy gradient. Evaluated on path-following tasks of a 3D quadrotor.

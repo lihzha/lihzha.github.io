@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Doremi: Grounding language model by detecting and recovering from plan-execution misalignment"
+href: https://arxiv.org/abs/2307.00329
+date:   2023-06-28 22:21:59 +00:00
+image: /images/doremi.gif
+categories: research
+author: "Lihan Zha"
+authors: "Yanjiang Guo*, Yen-Jen Wang*, <strong>Lihan Zha*</strong>, Zheyuan Jiang, Jianyu Chen"
+venue: "arXiv"
+arxiv: https://arxiv.org/abs/2307.00329
+website: https://sites.google.com/view/doremi-paper/
+---
+We show how to leverage LLMs to generate constraints that can indicate misalignment during execution, and use VLMs to detect constraint violations continuously.

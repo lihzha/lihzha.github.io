@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Rapid Motor Adaptation on Quadrupedal Robots"
+date:   2023-05-25 21:21:53 +0000
+image: /images/rma.gif
+code: ''
+categories: project
+author: "Lihan Zha"
+course: Advanced Topics in Intelligent Robot
+video: https://drive.google.com/file/d/1VlEJWFy_xYyi9BtZ6PjpfWeqS2KRDu-4/view?usp=drive_link
+---
+A implementation of [RMA](https://arxiv.org/abs/2107.04034) (Rapid Motor Adaptation) on a quadrupedal robot.

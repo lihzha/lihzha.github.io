@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "IMP: Iterative Motion Priors"
+date:   2023-02-23 21:21:53 +0000
+image: /images/imp.gif
+code: https://github.com/lihzha/imp
+categories: project
+author: "Lihan Zha"
+course: Unpublished Research Work, advised by Prof. Jianyu Chen
+video: https://drive.google.com/file/d/1nlCOJOPM0vsLXDJTYy18KUxEY_lwhzga/view?usp=drive_link
+---
+Enabling a humanoid robot to learn complex tasks by iteratively updating its latent motion priors.

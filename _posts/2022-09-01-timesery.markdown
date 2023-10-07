@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "An Ultra-Short-Term and Short-Term Wind Power Forecasting Approach Based on Optimized Artificial Neural Network with Time Series Reconstruction"
+href: https://ieeexplore.ieee.org/abstract/document/10082352
+date:   2022-09-01 22:21:59 +00:00
+image: /images/timesery.png
+categories: research
+author: "Lihan Zha"
+authors: "<strong>Lihan Zha</strong>, Dongxiang Jiang"
+venue: "SPIES"
+paper: https://ieeexplore.ieee.org/abstract/document/10082352
+---
+We propose using time series reconstruction to process serial wind power data and achieve state-of-the-art wind power prediction accuracy.
