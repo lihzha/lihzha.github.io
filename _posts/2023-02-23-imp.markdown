@@ -6,7 +6,7 @@ image: /images/imp.gif
 code: https://github.com/lihzha/imp
 categories: project
 author: "Lihan Zha"
-course: Unpublished Research Work, advised by Prof. Jianyu Chen
+course: Other
 video: https://drive.google.com/file/d/1nlCOJOPM0vsLXDJTYy18KUxEY_lwhzga/view?usp=drive_link
 ---
 Enabling a humanoid robot to learn complex tasks by iteratively updating its latent motion priors.

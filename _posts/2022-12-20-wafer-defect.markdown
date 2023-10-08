@@ -8,6 +8,6 @@ author: "Lihan Zha"
 course: Machine Learning
 paper: pdfs/defect.pdf
 video: ''
-code: https://github.com/lihzha/wafer_defect_classification
+code: ''
 ---
 Using CNN with various tricks to perform wafer defect pattern classification. The method's classification accuracy ranked 1st in the class.
