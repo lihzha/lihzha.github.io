@@ -7,6 +7,6 @@ code: ''
 categories: project
 author: "Lihan Zha"
 course: Tsinghua Future Robotics Club
-video: https://drive.google.com/file/d/1zo1Rnnqg4M4_22q69_gc8dDcT1VCCH2z/view?usp=drive_link
+video: https://drive.google.com/file/d/1STl6JsU0tFw-w1Zo3cXeo6R2ufm_Qiei/view?usp=sharing
 ---
 Using YOLOv5 for real-time object detection and MPC to control a real humanoid robot to dribble and kick.

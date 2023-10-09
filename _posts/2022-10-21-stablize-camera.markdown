@@ -7,6 +7,6 @@ code: ''
 categories: project
 author: "Lihan Zha"
 course: Other
-video: https://drive.google.com/file/d/1zo1Rnnqg4M4_22q69_gc8dDcT1VCCH2z/view?usp=drive_link
+video: https://drive.google.com/file/d/1SBXcCtO7kkGitDO4YyVYmxz0W_1STYo1/view?usp=drive_link
 ---
 Using PPO to train a stablization policy for a moving camera.
