@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DoRemi: Grounding language model by detecting and recovering from plan-execution misalignment"
+title:  "DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment"
 href: https://arxiv.org/abs/2307.00329
 date:   2023-06-28 22:21:59 +00:00
 image: /images/doremi.gif
