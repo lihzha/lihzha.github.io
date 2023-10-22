@@ -80,7 +80,11 @@
               {{post.authors}}
 
               <br>
+              {% if post.venue == 'SPIES' %}
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              {% else %}
+              <em>{{post.venue}}</em>
+              {% endif %}
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /

@@ -2,12 +2,12 @@
 layout: post
 title:  "DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment"
 href: https://arxiv.org/abs/2307.00329
-date:   2024-06-28 22:21:59 +00:00
+date:   2023-06-28 22:21:59 +00:00
 image: /images/doremi.gif
 categories: research
 author: "Lihan Zha"
 authors: "Yanjiang Guo*, Yen-Jen Wang*, <strong>Lihan Zha*</strong>, Zheyuan Jiang, Jianyu Chen"
-venue: In submission to ICLR
+venue: "In submission to ICLR, 2024"
 arxiv: https://arxiv.org/abs/2307.00329
 website: https://sites.google.com/view/doremi-paper/
 ---
