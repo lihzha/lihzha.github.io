@@ -2,12 +2,12 @@
 layout: post
 title:  "Distilling and Retrieving Generalizable Knowledge for Robot Manipulation via Language Corrections"
 href: TODO
-date:   2023-09-15 22:21:59 +00:00
+date:   2024-09-15 22:21:59 +00:00
 image: /images/droc.gif
 categories: research
 author: "Lihan Zha"
 authors: "<strong>Lihan Zha</strong>, Yuchen Cui, Li-Heng Lin, Minae Kwon, Montserrat Gonzalez Arenas, Andy Zeng, Fei Xia, Dorsa Sadigh"
-venue: "arXiv"
+venue: "In submission to ICRA"
 arxiv: pdfs/droc.pdf
 code: https://github.com/Stanford-ILIAD/droc
 website: https://sites.google.com/stanford.edu/droc
