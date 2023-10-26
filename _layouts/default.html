@@ -36,10 +36,13 @@
               <h1>
                 Lihan Zha
               </h1>
-              <p>I am a senior undergraduate student at  <a href="https://www.wyc.tsinghua.edu.cn/">Weiyang College</a> in <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, double majoring in Mathematics and Physics and Energy and Power Engineering. I'm interested in foundation models for robotics, human-robot interaction and data-driven methods for robotics and control. My research goal is to enable robots to interact intelligently and safely with the world.
+              <p>I am a senior undergraduate student at  <a href="https://www.wyc.tsinghua.edu.cn/">Weiyang College</a> in <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, double majoring in Mathematics and Physics and Energy and Power Engineering. I work at the intersection of robotics and machine learning. My research goal is to enable robots to interact <em> intelligently </em> and <em> safely </em> with the world.
               </p>
               <p>
-                Currently I'm an undergraduate visiting researcher at <a href="https://iliad.stanford.edu/">Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD)</a>, advised by <a href="https://dorsa.fyi/">Prof.  Dorsa Sadigh</a>, where I work on enabling robots to respond and distill generalizable knowledge from humans' corrections. Prior to that, I worked with <a href="http://people.iiis.tsinghua.edu.cn/~jychen/">Prof.  Jianyu Chen</a> on reinforcement learning for complex dynamics. I was also very fortunate to be advised by <a href="https://www.depe.tsinghua.edu.cn/depeen/info/1297/1100.htm">Prof.  Dongxiang Jiang</a>, where I worked on time series analysis.
+                Currently I'm an undergraduate visiting researcher at <a href="https://iliad.stanford.edu/">Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD)</a>, advised by <a href="https://dorsa.fyi/">Prof.  Dorsa Sadigh</a>, where I work on foundation models for robotics. Prior to that, I worked with <a href="http://people.iiis.tsinghua.edu.cn/~jychen/">Prof.  Jianyu Chen</a> on reinforcement learning for complex dynamics. I was also very fortunate to be advised by <a href="https://www.depe.tsinghua.edu.cn/depeen/info/1297/1100.htm">Prof.  Dongxiang Jiang</a>, where I worked on time series analysis.
+              </p>
+              <p style="font-size:17px;">
+                <strong>I'm actively seeking PhD in robotics for Fall 2024!</strong>
               </p>
               <p style="text-align:center">
                 <a href="mailto:lihanzha20@gmail.com">Email</a> &nbsp;/&nbsp;
@@ -79,14 +82,20 @@
               </h3>
               <br>
               {{post.authors}}
-
               <br>
+
+              {% if post.workshop %}
+              <em>{{post.workshop}}</em>
+              <br>
+              {% endif %}
+
               {% if post.venue == 'SPIES' %}
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               {% else %}
               <em>{{post.venue}}</em>
               {% endif %}
               <br>
+
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
@@ -221,6 +230,7 @@
           {% endfor %}
           {% endfor %}
         </table>
+
         
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">

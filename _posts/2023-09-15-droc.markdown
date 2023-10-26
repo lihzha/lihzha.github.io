@@ -8,6 +8,7 @@ categories: research
 author: "Lihan Zha"
 authors: "<strong>Lihan Zha</strong>, Yuchen Cui, Li-Heng Lin, Minae Kwon, Montserrat Gonzalez Arenas, Andy Zeng, Fei Xia, Dorsa Sadigh"
 venue: In submission to ICRA, 2024
+workshop: CoRL 2023 Workshop on Language as Grounding
 arxiv: pdfs/droc.pdf
 code: https://github.com/Stanford-ILIAD/droc
 website: https://sites.google.com/stanford.edu/droc
