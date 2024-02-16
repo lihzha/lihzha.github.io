@@ -36,10 +36,10 @@
               <h1>
                 Lihan Zha
               </h1>
-              <p>I am a senior undergraduate student at  <a href="https://www.wyc.tsinghua.edu.cn/">Weiyang College</a> in <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, double majoring in Mathematics and Physics and Energy and Power Engineering. I work at the intersection of robotics and machine learning. My research goal is to enable robots to interact <em> intelligently </em> and <em> safely </em> with the world.
+              <p>I am a senior undergraduate student at  <a href="https://www.wyc.tsinghua.edu.cn/">Weiyang College</a> in <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, double majoring in Mathematics and Physics and Energy and Power Engineering. My research goal is to enable robots to interact with the physical world.
               </p>
               <p>
-                Currently I'm an undergraduate visiting researcher at <a href="https://iliad.stanford.edu/">Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD)</a>, advised by <a href="https://dorsa.fyi/">Prof.  Dorsa Sadigh</a>, where I work on foundation models for robotics. Prior to that, I worked with <a href="http://people.iiis.tsinghua.edu.cn/~jychen/">Prof.  Jianyu Chen</a> on reinforcement learning for complex dynamics. I was also very fortunate to be advised by <a href="https://www.depe.tsinghua.edu.cn/depeen/info/1297/1100.htm">Prof.  Dongxiang Jiang</a>, where I worked on time series analysis.
+                I was a visiting researcher at <a href="https://iliad.stanford.edu/">Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD)</a>, advised by <a href="https://dorsa.fyi/">Prof.  Dorsa Sadigh</a>, where I work on foundation models for robotics. Prior to that, I worked with <a href="http://people.iiis.tsinghua.edu.cn/~jychen/">Prof.  Jianyu Chen</a> on reinforcement learning for complex dynamics. I was also very fortunate to be advised by <a href="https://www.depe.tsinghua.edu.cn/depeen/info/1297/1100.htm">Prof.  Dongxiang Jiang</a>, where I worked on time series analysis.
               </p>
               <p style="font-size:17px;">
                 <strong>I'm actively seeking PhD in robotics for Fall 2024!</strong>
@@ -60,7 +60,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Selected Publications</h2>
+              <h2>Publications</h2>
               <p>
                 (*: Equal contribution. Listed alphabetically.)
               </p>
@@ -84,10 +84,6 @@
               {{post.authors}}
               <br>
 
-              {% if post.workshop %}
-              <em>{{post.workshop}}</em>
-              <br>
-              {% endif %}
 
               {% if post.venue == 'SPIES' %}
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp <font color="red"><strong>(Best Presentation Award)</strong></font>
@@ -95,6 +91,12 @@
               <em>{{post.venue}}</em>
               {% endif %}
               <br>
+
+
+              {% if post.workshop %}
+              <em>{{post.workshop}}</em>
+              <br>
+              {% endif %}
 
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
@@ -128,10 +130,8 @@
           {% endfor %}
           {% endfor %}
         </table>
-        <br>
-        <br>
-        <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Selected Projects</h2>
@@ -229,6 +229,22 @@
           {% endif %}
           {% endfor %}
           {% endfor %}
+        </table> -->
+
+       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Awards</h2>
+              <br>
+              <ul>
+                <li>National Scholarship, 2023.</li>
+                <li>Jiang Nan Xiang Scholarship, Tsinghua University, 2022</li>
+                <li>Innovation Award of Science and Technology, Tsinghua University, 2022-2023.</li>
+                <li>Social Work Excellence Award, Tsinghua University, 2021. </li>
+                <li>Comprehensive Excellence Award, Tsinghua University, 2021. </li>
+              </ul>
+            </td>
+          </tr>
         </table>
 
         
@@ -249,4 +265,3 @@
 </body>
 
 </html>
-
