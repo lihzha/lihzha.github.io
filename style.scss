@@ -8,19 +8,37 @@
 //@import "reset";
 //@import "variables";
 // Syntax highlighting @import is at the bottom of this file
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+HU:wght@100..400&display=swap');
 
 /**************/
 /* BASE RULES */
 /**************/
+
+// Import Google Fonts
+
+
+
 a {
-  color: #1772d0;
+  color: #d16a16; 
   text-decoration: none;
+}
+
+.coauthor a {
+  color: #000000; 
+  text-decoration: none;
+  line-height: 1.2;
 }
 
 a:focus,
 a:hover {
   color: #f09228;
   text-decoration: none;
+}
+
+.coauthor a:hover {
+  color: #f09228;
+  text-decoration: none;
+  line-height: 1.2;
 }
 
 body,
@@ -74,6 +92,23 @@ h1 {
 
 }
 
+name {
+  font-family: 'Playwrite HU', sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  color: #063b6d;
+}
+
+subtitle {
+  font-family: 'Playwrite HU', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #063b6d;
+  padding: 0px;
+  margin: 0px;
+  display:inline; 
+}
+
 .one {
   width: 160px;
   height: 160px;
@@ -95,9 +130,53 @@ h1 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-span.highlight {
-  background-color: #ffffd0;
+.highlight {
+  // background-color: #ffffd0;
+  background-color: #E8D6FF; /* Light purple background */
+  color: #5B3E96; /* Dark purple text */
+  padding: 2px 6px; /* Padding around the text */
+  border-radius: 10px; /* Rounded corners */
+  font-family: 'Lato', sans-serif;
+  // font-weight: bold; /* Bold text */
+  // font-family: sans-serif; /* Optional: set a specific font */
+  text-decoration: none; /* Remove underline from links */
+  line-height: 2;
+
 }
+
+.coauthor {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  // font-display: auto;
+  color: #000000; /* Dark purple text */
+}
+
+.divider {
+  border-top: 1px solid #ccc; /* 1px 宽的顶部边框，颜色为浅灰色 */
+  margin: 5px -5; /* 上下间距 20px */
+  // color: #063b6d;
+}
+
+ul {
+  list-style-type: none; /* 去掉默认的列表符号 */
+  padding: 0; /* 去掉内边距 */
+  margin: 0; /* 去掉外边距 */
+  margin-bottom: 10px; /* 列表项之间的间距 */
+}
+
+li {
+  display: flex;
+  align-items: center; /* 垂直对齐 */
+  margin-bottom: 3px; /* 列表项之间的间距 */
+}
+.newsdate {
+  width: 80px; /* 设置固定宽度，确保对齐 */
+  font-weight: bold;
+}
+.newscontent {
+  flex: 1; /* 内容部分占用剩余空间 */
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

@@ -1,16 +1,18 @@
 ---
 layout: post
 title:  "Distilling and Retrieving Generalizable Knowledge for Robot Manipulation via Language Corrections"
-href: TODO
+href: https://arxiv.org/abs/2311.10678
 date:   2023-09-15 22:21:59 +00:00
 image: /images/droc.gif
 categories: research
 author: "Lihan Zha"
-authors: "<strong>Lihan Zha</strong>, Yuchen Cui, Li-Heng Lin, Minae Kwon, Montserrat Gonzalez Arenas, Andy Zeng, Fei Xia, Dorsa Sadigh"
-venue: ICRA, 2024
-workshop: CoRL 2023 Workshop on Language as Grounding
+authors: "<strong>Lihan Zha</strong>, <a href=\"https://yuchencui.cc/\">Yuchen Cui</a>, <a href=\"https://lihenglin.github.io/\">Li-Heng Lin</a>, <a href=\"https://minaek.github.io/\">Minae Kwon</a>, <a href=\"https://www.linkedin.com/in/montse90\">Montserrat Gonzalez Arenas</a>, <a href=\"https://andyzeng.github.io/\">Andy Zeng</a>, <a href=\"https://fxia22.github.io/\">Fei Xia</a>, <a href=\"https://dorsa.fyi/\">Dorsa Sadigh</a>"
+venue: ICRA 2024
+fullname: International Conference on Robotics and Automation, 2024
+# workshop: CoRL 2023 Workshop on Language as Grounding
 arxiv: pdfs/droc.pdf
 code: https://github.com/Stanford-ILIAD/droc
 website: https://sites.google.com/stanford.edu/droc
+award: 
 ---
 We propose DROC that can respond effectively to online human language corrections, distill generalizable knowledge from corrections, and retrieve usable knowledge for future tasks.

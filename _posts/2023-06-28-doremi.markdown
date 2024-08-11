@@ -6,9 +6,11 @@ date:   2023-06-28 22:21:59 +00:00
 image: /images/doremi.gif
 categories: research
 author: "Lihan Zha"
-authors: "Yanjiang Guo*, Yen-Jen Wang*, <strong>Lihan Zha*</strong>, Zheyuan Jiang, Jianyu Chen"
-venue: "arXiv, 2023"
+authors: "<a href=\"https://scholar.google.com/citations?user=rBeZZPMAAAAJ&hl=zh-CN\">Yanjiang Guo*</a>, <a href=\"https://wangyenjen.github.io/\">Yen-Jen Wang*</a>, <strong>Lihan Zha*</strong>, <a href=\"https://openreview.net/profile?id=~Zheyuan_Jiang1\">Zheyuan Jiang</a>, <a href=\"http://people.iiis.tsinghua.edu.cn/~jychen/\">Jianyu Chen</a>"
+venue: "IROS 2024"
+fullname: International Conference on Intelligent Robots and Systems, 2024
 arxiv: https://arxiv.org/abs/2307.00329
 website: https://sites.google.com/view/doremi-paper/
+award: 
 ---
 We show how to leverage LLMs to generate constraints that can indicate misalignment during execution, and use VLMs to detect constraint violations continuously.

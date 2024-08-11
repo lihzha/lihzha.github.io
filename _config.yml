@@ -91,3 +91,7 @@ exclude:
   - todo.txt
   - _temp/index.html
   - _temp/
+
+
+md_constants:
+  href_color: "#000000"

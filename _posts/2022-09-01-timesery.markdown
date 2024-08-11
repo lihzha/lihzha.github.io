@@ -6,8 +6,10 @@ date:   2022-09-01 22:21:59 +00:00
 image: /images/timesery.png
 categories: research
 author: "Lihan Zha"
-authors: "<strong>Lihan Zha</strong>, Dongxiang Jiang"
-venue: "SPIES"
+authors: "<strong>Lihan Zha</strong>, <a href=\"https://www.depe.tsinghua.edu.cn/depeen/info/1297/1100.htm\">Dongxiang Jiang</a>"
+venue: "SPIES 2022"
+fullname: International Conference on Smart Power & Internet Energy Systems, 2022
+award: Best Presentation Award
 paper: https://ieeexplore.ieee.org/abstract/document/10082352
 ---
 We propose using time series reconstruction to process serial wind power data and achieve state-of-the-art wind power prediction accuracy.
