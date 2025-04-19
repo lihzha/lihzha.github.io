@@ -10,7 +10,7 @@ authors: "<strong>Lihan Zha</strong>, <a href=\"https://yuchencui.cc/\">Yuchen C
 venue: ICRA 2024
 fullname: International Conference on Robotics and Automation, 2024
 # workshop: CoRL 2023 Workshop on Language as Grounding
-arxiv: pdfs/droc.pdf
+arxiv: https://arxiv.org/abs/2311.10678
 code: https://github.com/Stanford-ILIAD/droc
 website: https://sites.google.com/stanford.edu/droc
 award: 
