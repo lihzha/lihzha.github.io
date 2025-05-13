@@ -3,7 +3,7 @@ layout: post
 title:  "Guiding Data Collection via Factored Scaling Curves"
 href: http://arxiv.org/abs/2505.07728
 date: 2025-05-12 22:21:59 +00:00
-image: ./tn/images/fsc.pdf
+image: ./tn/images/fsc.gif
 categories: research
 author: "Lihan Zha"
 authors: "<strong>Lihan Zha</strong>, <a href=\"https://abadithela.github.io/\">Apurva Badithela</a>, <a href=\"https://www.linkedin.com/in/michael-zhang-47a954241/\">Michael Zhang</a>, <a href=\"https://jlidard.github.io/\">Justin Lidard</a>, <a href=\"https://www.linkedin.com/in/jeremy-bao/\">Jeremy Bao</a>, <a href=\"https://www.linkedin.com/in/zhou-emily/\">Emily Zhou</a>, <a href=\"https://scholar.google.com/citations?user=vxcCdY0AAAAJ&hl=en\">David Snyder</a>, <a href=\"https://allenzren.github.io/\">Allen Z. Ren</a>, <a href=\"https://robodhruv.github.io/\">Dhruv Shah</a>, <a href=\"https://irom-lab.princeton.edu/majumdar/\">Anirudha Majumdar</a>"
