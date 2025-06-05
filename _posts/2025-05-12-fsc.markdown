@@ -13,6 +13,7 @@ venue: arXiv
 arxiv: http://arxiv.org/abs/2505.07728
 website: https://factored-data-scaling.github.io/
 video: https://www.youtube.com/watch?v=unTqsgAVE1o
+code: https://github.com/irom-princeton/factored-scaling-curves
 award: 
 ---
 We introduce Factored Scaling Curves (FSC), which model how policy performance scales with data for different environmental factors and can be extrapolated to guide principled data collection.
