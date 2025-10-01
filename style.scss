@@ -8,7 +8,7 @@
 //@import "reset";
 //@import "variables";
 // Syntax highlighting @import is at the bottom of this file
-@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+HU:wght@100..400&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Grey+Qo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+HU:wght@100..400&display=swap";
 
 /**************/
 /* BASE RULES */
@@ -107,6 +107,11 @@ subtitle {
   padding: 0px;
   margin: 0px;
   display:inline; 
+}
+
+autocolor {
+  color: #063b6d;
+  font-weight: 700;
 }
 
 .one {

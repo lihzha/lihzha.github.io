@@ -1,4 +1,4 @@
-_site
+_site/
 .DS_Store
 .jekyll
 .jekyll-metadata
@@ -10,3 +10,6 @@ node_modules
 package.json
 codes/
 password.txt
+_outdated_posts/
+vendor/
+scripts/

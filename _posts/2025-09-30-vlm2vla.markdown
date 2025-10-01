@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting"
+href: https://vlm2vla.github.io/
+date: 2025-09-30 22:21:59 +00:00
+image: /images/vlm2vla.gif
+categories: research
+author: "Lihan Zha"
+authors: "<a href=\"https://aasherh.github.io/\">Asher J. Hancock</a>, <a href=\"https://xindiwu.github.io/\">Xindi Wu</a>, <strong>Lihan Zha</strong>, <a href=\"https://www.cs.princeton.edu/~olgarus/\">Olga Russakovsky</a>, <a href=\"https://irom-lab.princeton.edu/majumdar/\">Anirudha Majumdar</a>"
+
+venue: arXiv
+# fullname: International Conference on Robotics and Automation, 2024
+# workshop: CoRL 2023 Workshop on Language as Grounding
+arxiv: https://arxiv.org/abs/2509.22195
+website:  https://vlm2vla.github.io/
+# video: https://www.youtube.com/watch?v=unTqsgAVE1o
+# code: https://github.com/irom-princeton/factored-scaling-curves
+award: 
+---
+We introduce VLM2VLA, a VLA model training paradigm that represents low-level robot actions in natural language to better align the robot fine-tuning data with the base VLM's representation space. VLM2VLA yields a policy with strong VQA performance and zero-shot generalization to new scenarios.

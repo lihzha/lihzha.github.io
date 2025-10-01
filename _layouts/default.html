@@ -22,7 +22,7 @@
     
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="tn/icons/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
@@ -34,17 +34,18 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:80%;max-width:80%" alt="profile photo" src="images/self_photo_4.jpeg">
+              <img style="width:80%;max-width:80%" alt="profile photo" src="tn/images/self_photo_4.jpeg">
             </td>
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
                 <name>Lihan Zha</name>
               </h1>
-              <p>I am a PhD student at Princeton University, advised by <a href="https://irom-lab.princeton.edu/majumdar">Anirudha Majumdar</a>. I am interested in enabling robots to perform complex tasks trustworthily in the real world. 
+              <p>I am a PhD student at Princeton University, advised by <a href="https://irom-lab.princeton.edu/majumdar">Anirudha Majumdar</a>. I am interested in building generalist robots. 
                 <!-- <a href="https://www.wyc.tsinghua.edu.cn/">Weiyang College</a> in <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, double majoring in Mathematics and Physics and Energy and Power Engineering. My research goal is to enable robots to interact with the physical world. -->
               </p>
               <p>
-                Previously, I graduated from Tsinghua University with a B.S. in Mathematics and Physics and a B.E. in Mechanical Engineering, where I worked with <a href="http://people.iiis.tsinghua.edu.cn/~jychen/">Jianyu Chen</a> on humanoid robots. I was also a visiting student at Stanford, advised by <a href="https://dorsa.fyi/">Dorsa Sadigh</a>.
+                Previously, I graduated from Tsinghua University, where I worked with <a href="http://people.iiis.tsinghua.edu.cn/~jychen/">Jianyu Chen</a> on humanoid robots. I was also a visiting student at Stanford, advised by <a href="https://dorsa.fyi/">Dorsa Sadigh</a>.
+                <!-- Previously, I graduated from Tsinghua University with a B.S. in Mathematics and Physics and a B.E. in Mechanical Engineering, where I worked with <a href="http://people.iiis.tsinghua.edu.cn/~jychen/">Jianyu Chen</a> on humanoid robots. I was also a visiting student at Stanford, advised by <a href="https://dorsa.fyi/">Dorsa Sadigh</a>. -->
                 <!-- where I work on foundation models for robotics. Prior to that, I worked with <a href="http://people.iiis.tsinghua.edu.cn/~jychen/">Prof.  Jianyu Chen</a> on reinforcement learning for complex dynamics. I was also very fortunate to be advised by <a href="https://www.depe.tsinghua.edu.cn/depeen/info/1297/1100.htm">Prof.  Dongxiang Jiang</a>, where I worked on time series analysis. -->
               </p>
 <!--               <p> -->
@@ -56,7 +57,7 @@
                 <a href="https://x.com/LihanZha"> Twitter </a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=3UErXEwAAAAJ&hl=zh">Google Scholar</a> &nbsp;/&nbsp;
                 <a href="https://linkedin.com/in/lihan-zha"> LinkedIn </a> &nbsp;/&nbsp;
-                <a href="../cv.pdf"> CV </a>
+                <a href="tn/pdfs/cv.pdf"> CV </a>
               </p>
             </td>
             
@@ -75,7 +76,7 @@
         </table> -->
         <div class="divider"></div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <subtitle>News</subtitle>
 
@@ -90,7 +91,7 @@
             </td>
         </table>
 
-        <div class="divider"></div>
+        <div class="divider"></div> -->
 
 
         <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"> -->
@@ -139,8 +140,18 @@
               <br>
               {% endif %}
 
+              {% if post.award %}
+                🏅 <strong>{{post.award}}</strong>
+              <br>
+
+              {% endif %}
+              
+
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
+              {% endif %}
+              {% if post.talk %}
+              <a href="{{post.talk}}">talk</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
@@ -165,10 +176,6 @@
               {% endif %}
               <p></p>
               {{ post.excerpt }}
-
-              {% if post.award %}
-                🏅 <strong>{{post.award}}
-              {% endif %}
             </td>
           </tr>
           {% endif %}
@@ -275,22 +282,26 @@
           {% endfor %}
           {% endfor %}
         </table> -->
+        <div class="divider"></div>
 
-       <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <subtitle>Awards</subtitle>
+              <subtitle>Selected Awards</subtitle>
               <br>
-              <ul>
-                <li>National Scholarship, 2023.</li>
-                <li>Jiang Nan Xiang Scholarship, Tsinghua University, 2022</li>
-                <li>Innovation Award of Science and Technology, Tsinghua University, 2022-2023.</li>
+              <br>
+              <ul style="margin:0 0 5px;">
+                <li> <span class="newsdate">2024</span><span class="newscontent"> Outstanding Graduate in Beijing, China. </span></li>
+                <li> <span class="newsdate">2023</span><span class="newscontent"> National Scholarship. <i style="color:#e74d3c">Highest honor for undergraduates</i></span></li>
+                <li> <span class="newsdate">2023</span><span class="newscontent"> Jiang Nan Xiang Scholarship. <i style="color:#e74d3c">Highest honor for undergraduates</i></span></li>
+                <!-- <li>Innovation Award of Science and Technology, Tsinghua University, 2022-2023.</li>
                 <li>Social Work Excellence Award, Tsinghua University, 2021. </li>
-                <li>Comprehensive Excellence Award, Tsinghua University, 2021. </li>
+                <li>Comprehensive Excellence Award, Tsinghua University, 2021. </li> -->
               </ul>
             </td>
           </tr>
-        </table> -->
+        </table>
+        
 
         
 

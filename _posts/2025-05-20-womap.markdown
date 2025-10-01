@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "WoMAP: World Models For Embodied Open-Vocabulary Object Localization"
+href: https://robot-womap.github.io/
+date: 2025-05-20 22:21:59 +00:00
+image: /images/womap.png
+categories: research
+author: "Lihan Zha"
+authors: "<a href=\"https://tenny-yinyijun.github.io/\">Tenny Yin*</a>, <a href=\"https://may0mei.github.io/\">Zhiting Mei</a>, <a>Tao Sun</a>, <strong>Lihan Zha</strong>, <a href=\"https://www.linkedin.com/in/zhou-emily/\">Emily Zhou</a>, <a href=\"https://www.linkedin.com/in/jeremy-bao/\">Jeremy Bao</a>, <a href=\"https://www.linkedin.com/in/miyu-yamane\">Miyu Yamane</a>, <a href=\"https://ieeexplore.ieee.org/author/37088504638\">Ola Shorinwa*</a>, <a href=\"https://irom-lab.princeton.edu/majumdar/\">Anirudha Majumdar</a>"
+
+venue: CoRL 2025
+fullname: Conference on Robot Learning (CoRL), 2025
+
+# workshop: CoRL 2023 Workshop on Language as Grounding
+arxiv: https://arxiv.org/abs/2506.01600
+website: https://robot-womap.github.io/
+video: https://www.youtube.com/watch?v=i1qSlALio-o
+code: https://github.com/irom-princeton/womap
+award: <em>Best Paper Award, RSS 2025 <a href="https://swomo-rss.github.io/">SWoMo</a> and <a href="https://semrob.github.io/">SemRob</a> workshops</em>
+---
+We introduce World Models for Active Perception (WoMAP), a scalable recipe for training open-vocabulary object localization policies that are grounded in the physical world.
