@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Reliable and Scalable Robot Policy Evaluation with Imperfect Simulators"
+href: https://suresim-robot-eval.github.io/
+date: 2025-10-05 22:21:59 +00:00
+image: /images/suresim.gif
+categories: research
+author: "Lihan Zha"
+authors: "<a href=\"https://abadithela.github.io/\">Apurva Badithela</a>, <a href=\"https://scholar.google.com/citations?user=vxcCdY0AAAAJ&hl=en\">David Snyder*</a>, <strong>Lihan Zha*</strong>, <a href=\"https://lihzha.github.io/\">Joseph Mikhail</a>, <a href=\"https://scholar.google.com/citations?user=EMrV8BIAAAAJ&hl=en\">Matthew O'Kelly<sup>&dagger;</sup></a>, <a href=\"https://www.anushridixit.com\">Anushri Dixit<sup>&dagger;</sup></a>, <a href=\"https://irom-lab.princeton.edu/majumdar/\">Anirudha Majumdar</a>"
+
+venue: arXiv
+# fullname: International Conference on Robotics and Automation, 2024
+# workshop: CoRL 2023 Workshop on Language as Grounding
+arxiv: https://arxiv.org/abs/2510.04354
+website:  https://suresim-robot-eval.github.io/
+# video: https://www.youtube.com/watch?v=unTqsgAVE1o
+# code: https://github.com/irom-princeton/factored-scaling-curves
+award: <em>Best Paper Award, CoRL 2025 <a href="https://eval-deploy.github.io/">Eval&Deploy</a> workshop</em>
+---
+We present a framework that augments real-world evaluations with simulation evaluations to provide stronger inferences on real-world policy performance that could otherwise only be obtained by scaling up real-world evaluations.
