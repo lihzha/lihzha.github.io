@@ -8,8 +8,8 @@ categories: research
 author: "Lihan Zha"
 authors: "<a href=\"https://aasherh.github.io/\">Asher J. Hancock</a>, <a href=\"https://xindiwu.github.io/\">Xindi Wu</a>, <strong>Lihan Zha</strong>, <a href=\"https://www.cs.princeton.edu/~olgarus/\">Olga Russakovsky</a>, <a href=\"https://irom-lab.princeton.edu/majumdar/\">Anirudha Majumdar</a>"
 
-venue: arXiv
-# fullname: International Conference on Robotics and Automation, 2024
+venue: ICLR 2026
+fullname: International Conference on Learning Representations, 2026
 # workshop: CoRL 2023 Workshop on Language as Grounding
 arxiv: https://arxiv.org/abs/2509.22195
 website:  https://vlm2vla.github.io/

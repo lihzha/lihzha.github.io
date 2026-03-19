@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "LAP: Language-Action Pre-Training Enables Zero-shot Cross-Embodiment Transfer"
+href: https://lap-vla.github.io
+date: 2026-02-11 22:21:59 +00:00
+image: /images/lap.gif
+categories: research
+author: "Lihan Zha"
+authors: "<strong>Lihan Zha</strong>, <a href=\"https://aasherh.github.io/\">Asher J. Hancock</a>*, <a href=\"https://robo-alex.github.io/\">Mingtong Zhang</a>*, <a href=\"https://tenny-yinyijun.github.io/\">Tenny Yin</a>, <a href=\"https://yixuanhuang98.github.io/\">Yixuan Huang</a>, <a href=\"https://robodhruv.github.io/\">Dhruv Shah</a>, <a href=\"https://allenzren.github.io/\">Allen Z. Ren</a>&dagger;, <a href=\"https://irom-lab.princeton.edu/majumdar/\">Anirudha Majumdar</a>&dagger;"
+
+venue: arXiv
+
+arxiv: https://arxiv.org/abs/2602.10556
+website: https://lap-vla.github.io
+code: https://github.com/lihzha/lap
+checkpoints: https://huggingface.co/collections/lihzha/lap
+---
+We introduce Language-Action Pre-training (LAP), which represents robot actions as natural language tokens to enable vision-language-action models to transfer zero-shot to new robot embodiments, achieving over 50% zero-shot success on novel robots—approximately twice the performance of prior methods.
