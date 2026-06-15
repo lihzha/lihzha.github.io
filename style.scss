@@ -227,6 +227,14 @@ h3 {
   margin-bottom: 24px;
 }
 
+.publications-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .section-header h2 {
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: clamp(2.2rem, 4vw, 3.3rem);
@@ -401,16 +409,11 @@ h3 {
   margin-right: 6px;
 }
 
-.publication-toggle {
-  display: flex;
-  justify-content: center;
-  padding: 18px 0 4px;
-}
-
 .publication-toggle-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 auto;
   min-height: 40px;
   padding: 0 16px;
   border: 1px solid rgba(18, 38, 58, 0.14);
@@ -550,6 +553,10 @@ autocolor,
 
   .section-header h2 {
     font-size: 2.5rem;
+  }
+
+  .publications-header {
+    align-items: flex-start;
   }
 
   .awards-card {

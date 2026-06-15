@@ -53,29 +53,19 @@
     </section>
 
     <section class="content-section">
-      <div class="section-header">
-        <p class="section-kicker">Selected work</p>
-        <h2>Research</h2>
+      <div class="section-header publications-header">
+        <h2>Selected Publications</h2>
+        <button type="button" class="publication-toggle-button" aria-controls="research-list" aria-expanded="false" data-publication-toggle>
+          Show all publications
+        </button>
       </div>
 
       <div class="research-list" id="research-list">
         {% for post in site.posts %}
-        {% if post.categories contains 'research' and post.selected %}
-        {% include research-card.html post=post selected=true %}
+        {% if post.categories contains 'research' %}
+        {% include research-card.html post=post selected=post.selected %}
         {% endif %}
         {% endfor %}
-
-        {% for post in site.posts %}
-        {% if post.categories contains 'research' and post.selected != true %}
-        {% include research-card.html post=post selected=false %}
-        {% endif %}
-        {% endfor %}
-      </div>
-
-      <div class="publication-toggle">
-        <button type="button" class="publication-toggle-button" aria-controls="research-list" aria-expanded="false" data-publication-toggle>
-          Show all publications
-        </button>
       </div>
     </section>
 
