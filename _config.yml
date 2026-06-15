@@ -1,0 +1,18 @@
+name: Lihan Zha
+url: "https://lihzha.github.io"
+baseurl: ""
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - _site
+  - vendor

@@ -1,0 +1,43 @@
+{% assign post = include.post %}
+<article class="research-card{% unless include.selected %} is-publication-hidden{% endunless %}" data-publication-card{% unless include.selected %} hidden{% endunless %}>
+  <div class="research-media">
+    {% if post.image %}
+    <img src="/tn{{post.image}}" alt="Project image for {{post.title}}" />
+    {% else %}
+    <div class="research-media-fallback" aria-hidden="true">
+      <span>{{ post.venue | default: "Research" }}</span>
+    </div>
+    {% endif %}
+  </div>
+  <div class="research-body">
+    <h3><a href="{{post.href}}">{{post.title}}</a></h3>
+    <p class="coauthor">{{post.authors}}</p>
+    <p class="meta-line">
+      <span class="highlight">{{post.venue}}</span>
+      {% if post.fullname %}<em>{{post.fullname}}</em>{% endif %}
+    </p>
+
+    {% if post.workshop %}
+    <p class="meta-subtle"><em>{{post.workshop}}</em></p>
+    {% endif %}
+
+    {% if post.award %}
+    <p class="award-line"><strong>{{post.award}}</strong></p>
+    {% endif %}
+
+    <p class="resource-links">
+      {% if post.arxiv %}<a href="{{post.arxiv}}">Paper</a>{% endif %}
+      {% if post.talk %}<a href="{{post.talk}}">Talk</a>{% endif %}
+      {% if post.video %}<a href="{{post.video}}">Video</a>{% endif %}
+      {% if post.paper %}<a href="{{post.paper}}">Paper</a>{% endif %}
+      {% if post.website %}<a href="{{post.website}}">Website</a>{% endif %}
+      {% if post.code %}<a href="{{post.code}}">Code</a>{% endif %}
+      {% if post.checkpoints %}<a href="{{post.checkpoints}}">Checkpoints</a>{% endif %}
+      {% if post.poster %}<a href="{{post.poster}}">Poster</a>{% endif %}
+      {% if post.slides %}<a href="{{post.slides}}">Slides</a>{% endif %}
+      {% if post.youtube %}<a href="{{post.youtube}}">YouTube</a>{% endif %}
+    </p>
+
+    <p class="excerpt"><span class="excerpt-label">TL;DR:</span> {{ post.excerpt | strip_html | strip_newlines }}</p>
+  </div>
+</article>

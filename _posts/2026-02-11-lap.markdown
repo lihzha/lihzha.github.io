@@ -8,7 +8,9 @@ categories: research
 author: "Lihan Zha"
 authors: "<strong>Lihan Zha</strong>, <a href=\"https://aasherh.github.io/\">Asher J. Hancock</a>*, <a href=\"https://robo-alex.github.io/\">Mingtong Zhang</a>*, <a href=\"https://tenny-yinyijun.github.io/\">Tenny Yin</a>, <a href=\"https://yixuanhuang98.github.io/\">Yixuan Huang</a>, <a href=\"https://robodhruv.github.io/\">Dhruv Shah</a>, <a href=\"https://allenzren.github.io/\">Allen Z. Ren</a>&dagger;, <a href=\"https://irom-lab.princeton.edu/majumdar/\">Anirudha Majumdar</a>&dagger;"
 
-venue: arXiv
+venue: RSS 2026
+fullname: "Robotics: Science and Systems, 2026"
+selected: true
 
 arxiv: https://arxiv.org/abs/2602.10556
 website: https://lap-vla.github.io

@@ -9,6 +9,7 @@ author: "Lihan Zha"
 authors: "<strong>Lihan Zha</strong>, <a href=\"https://yuchencui.cc/\">Yuchen Cui</a>, <a href=\"https://lihenglin.github.io/\">Li-Heng Lin</a>, <a href=\"https://minaek.github.io/\">Minae Kwon</a>, <a href=\"https://www.linkedin.com/in/montse90\">Montserrat Gonzalez Arenas</a>, <a href=\"https://andyzeng.github.io/\">Andy Zeng</a>, <a href=\"https://fxia22.github.io/\">Fei Xia</a>, <a href=\"https://dorsa.fyi/\">Dorsa Sadigh</a>"
 venue: ICRA 2024
 fullname: International Conference on Robotics and Automation, 2024
+selected: true
 # workshop: CoRL 2023 Workshop on Language as Grounding
 arxiv: https://arxiv.org/abs/2311.10678
 code: https://github.com/Stanford-ILIAD/droc

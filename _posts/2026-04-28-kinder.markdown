@@ -1,0 +1,18 @@
+---
+layout: post
+title: "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning"
+href: https://prpl-group.com/kinder-site/
+date: 2026-04-28 15:58:09 +00:00
+image: /images/kinder.png
+categories: research
+author: "Lihan Zha"
+authors: "<a href=\"https://yixuanhuang98.github.io/\">Yixuan Huang</a>*, <a href=\"https://jaraxxus-me.github.io/\">Bowen Li</a>*, <a href=\"https://sites.google.com/view/vaibhavsaxena\">Vaibhav Saxena</a>*, <a href=\"https://yichao-liang.github.io/\">Yichao Liang</a>, <a href=\"https://umishra.me/\">Utkarsh Mishra</a>, Liang Ji, <strong>Lihan Zha</strong>, <a href=\"https://jimmyyhwu.github.io/\">Jimmy Wu</a>, <a href=\"https://nishanthjkumar.com/\">Nishanth Kumar</a>, <a href=\"https://theairlab.org/team/sebastian/\">Sebastian Scherer</a>, <a href=\"https://faculty.cc.gatech.edu/~danfei/\">Danfei Xu</a>, <a href=\"https://tomsilver.github.io/\">Tom Silver</a>"
+
+venue: RSS 2026
+fullname: "Robotics: Science and Systems, 2026"
+
+arxiv: https://arxiv.org/abs/2604.25788
+website: https://prpl-group.com/kinder-site/
+code: https://github.com/Princeton-Robot-Planning-and-Learning/kindergarden
+---
+KinDER is a physical reasoning benchmark with 25 procedurally generated environments and standardized baselines spanning imitation learning, reinforcement learning, foundation-model planning, diffusion planning, and task and motion planning.
