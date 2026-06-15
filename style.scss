@@ -241,6 +241,13 @@ h3 {
   line-height: 1;
 }
 
+.publications-header h2 {
+  font-family: "Instrument Sans", "Avenir Next", sans-serif;
+  font-size: 1.55rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 .research-list {
   display: grid;
   gap: 0;
@@ -421,7 +428,7 @@ h3 {
   background: var(--paper-soft);
   color: var(--heading);
   font: inherit;
-  font-weight: 700;
+  font-weight: 400;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(18, 38, 58, 0.04);
   transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
@@ -553,6 +560,10 @@ autocolor,
 
   .section-header h2 {
     font-size: 2.5rem;
+  }
+
+  .publications-header h2 {
+    font-size: 1.35rem;
   }
 
   .publications-header {
