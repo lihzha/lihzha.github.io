@@ -1,7 +1,14 @@
 {% assign post = include.post %}
 <article class="research-card{% unless include.selected %} is-publication-hidden{% endunless %}" data-publication-card{% unless include.selected %} hidden{% endunless %}>
   <div class="research-media">
-    {% if post.image %}
+    {% if post.preview_video %}
+    <a class="research-video-link" href="{{post.href}}" aria-label="View {{post.title}} project">
+      <video muted loop playsinline preload="metadata" poster="/tn{{post.image}}" aria-label="{{post.preview_label}}" data-publication-preview>
+        <source src="{{post.preview_video}}" type="video/mp4" />
+        <img src="/tn{{post.image}}" alt="Project image for {{post.title}}" />
+      </video>
+    </a>
+    {% elsif post.image %}
     <img src="/tn{{post.image}}" alt="Project image for {{post.title}}" />
     {% else %}
     <div class="research-media-fallback" aria-hidden="true">

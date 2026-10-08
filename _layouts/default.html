@@ -87,6 +87,32 @@
   </main>
   <script>
     (() => {
+      const previews = Array.from(document.querySelectorAll("[data-publication-preview]"));
+      if (!previews.length) return;
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      const visible = new Set();
+      const updatePlayback = () => {
+        previews.forEach((video) => {
+          if (visible.has(video) && !reducedMotion.matches && !document.hidden) {
+            video.play().catch(() => {});
+          } else {
+            video.pause();
+          }
+        });
+      };
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(({ target, isIntersecting }) => {
+          if (isIntersecting) visible.add(target);
+          else visible.delete(target);
+        });
+        updatePlayback();
+      });
+      previews.forEach((video) => observer.observe(video));
+      reducedMotion.addEventListener("change", updatePlayback);
+      document.addEventListener("visibilitychange", updatePlayback);
+    })();
+
+    (() => {
       const button = document.querySelector("[data-publication-toggle]");
       const hiddenCards = Array.from(document.querySelectorAll("[data-publication-card].is-publication-hidden"));
 
