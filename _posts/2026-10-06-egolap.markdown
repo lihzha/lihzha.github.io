@@ -1,0 +1,15 @@
+---
+layout: "post"
+title: "EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning"
+href: "https://ego-lap.github.io/"
+date: "2026-10-06 17:30:33 +00:00"
+image: "/images/egolap.jpg"
+categories: "research"
+author: "Lihan Zha"
+authors: "<strong>Lihan Zha</strong>*, <a href=\"https://shroglck.github.io/\">Shresth Grover</a>*, <a href=\"https://tenny-yinyijun.github.io/\">Tenny Yin</a>, <a href=\"https://bateman.io/\">Samuel M. Bateman</a>, <a href=\"https://hengkaipan.github.io/\">Hengkai Pan</a>, <a href=\"https://zmccmzty.github.io/\">Mengchao Zhang</a>, <a href=\"https://www.linkedin.com/in/aykut-onol/?locale=en\">Aykut Onol</a>, <a href=\"https://allenzren.github.io/\">Allen Z. Ren</a>, <a href=\"https://robodhruv.github.io/\">Dhruv Shah</a>&dagger;, <a href=\"https://irom-lab.princeton.edu/majumdar\">Anirudha Majumdar</a>&dagger;"
+venue: "arXiv"
+selected: true
+arxiv: "https://arxiv.org/abs/2610.08726"
+website: "https://ego-lap.github.io/"
+---
+We introduce EgoLAP, a vision-language-action pre-training framework that learns from egocentric human and robot trajectories through shared language actions and motion-level reasoning. EgoLAP transfers human experience to robot control, achieving 80.1% mean real-world task progress on an unseen robot configuration and a 2.3× gain over alternative action representations.
